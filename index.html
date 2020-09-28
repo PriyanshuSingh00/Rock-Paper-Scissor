@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock-Paper-Scissor-Lizard-Spock</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/15821859f9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<h1 class="title">Rock Paper Scissor Lizard Spock</h1>
+	</header>
+	<main>
+		<div class="scoreboard">
+			<div class="badges" id="user-label">User</div>
+			<div class="badges" id="comp-label">Comp</div>
+			<span id="user-score">0</span>:<span id="comp-score">0</span>
+		</div>
+		<div id="explaination"></div>
+		<div id="result"></div>
+		<div class="choices">
+			<div class="choice" id="Rock"><img src="./images/rock.png"></div>
+			<div class="choice" id="Paper"><img src="./images/paper.png"></div>
+			<div class="choice" id="Scissor"><img src="./images/scissor.png"></div>
+			<div class="choice" id="Lizard"><img src="./images/lizard.png"></div>
+			<div class="choice" id="Spock"><img src="./images/spock.png"></div>
+		</div>
+		<div class="actionMessage"><p>Make your move</p></div>
+		<div class="lifeboard">
+			<div class="user">
+				<span class="user-icon"><i class="fas fa-user"></i></span>
+				<div class="user-life">
+					<span class="heart" id="h1"><i class="fas fa-heart"></i></span>
+					<span class="heart" id="h2"><i class="fas fa-heart"></i></span>
+					<span class="heart" id="h3"><i class="fas fa-heart"></i></span>
+				</div>
+			</div>
+			<div class="robot">
+				<span class="robot-icon"><i class="fas fa-robot"></i></span>
+				<div class="robot-life">
+					<span class="heart" id="h1"><i class="fas fa-heart"></i></span>
+					<span class="heart" id="h2"><i class="fas fa-heart"></i></span>
+					<span class="heart" id="h3"><i class="fas fa-heart"></i></span>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<p class="mute">copyright @yatharthMogra-2020</p>
+	</footer>
+	<script src="app.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	text-align:center;
+	font-family:'Asap',sans-serif;
+}
+body{
+	background:#24272E;
+}
+header{
+	padding:20px;
+	background:white;
+}
+header>h1{
+	text-align:center;
+	color:#24272E;
+}
+.scoreboard{
+	margin:20px auto;
+	width:200px;
+	padding:10px;
+	border:5px solid white;
+	color:white;
+	font-size:60px;
+	border-radius:10px;
+	position:relative;
+}
+.scoreboard .badges{
+	display:inline;
+	white-space:nowrap;
+	background:red;
+	color:white;
+	font-size: 24px;
+	padding:10px;
+	border-radius: 5px;
+}
+.scoreboard #user-label{
+	position:absolute;
+	top:20px;
+	left:-50px;
+}
+.scoreboard #comp-label{
+	position:absolute;
+	top:20px;
+	right:-60px;
+}
+#explaination{
+	color:white;
+	font-weight:bold;
+	font-size:50px;
+}
+#result{
+	display:none;
+	margin-top:20px;
+	margin-bottom:20px;
+	font-size:30px;
+	font-weight:bold;
+}
+.choice{
+	border:5px solid white;
+	border-radius:50%;
+	display:inline-block;
+	margin:50px 20px;
+	padding:20px;
+	transition:background;
+	transition-duration:0.5s;
+}
+.choice:hover{
+	background:lightblue;
+	cursor:pointer;
+}
+.choice:active{
+	background:#11a011;
+	cursor:pointer;
+}
+img{
+	height:150px;
+	width:150px;
+}
+.actionMessage{
+	color:white;
+	font-size:30px;
+	font-weight:bold;
+}
+.lifeboard{
+	margin:20px;
+	padding:20px;
+}
+.robot{
+	display:inline-block;
+	padding-left:30px;
+}
+.user{
+	display:inline-block;
+	padding-right:30px;
+	border-right:5px solid white;
+}
+.user-icon{
+	font-size:60px;
+	color:lightblue;
+}
+.robot-icon{
+	font-size:60px;
+	color:lightgreen;
+}
+.user-life,.robot-life{
+	color:red;
+	font-size:40px;
+	margin-top:20px;
+}
+footer{
+	padding:20px;
+	position:absolute;
+	bottom:0;
+}
